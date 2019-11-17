@@ -28,12 +28,12 @@ kullanarak kodlayınız. Bilgisayar frekansı 1 GHz - 5 GHz arasında
 hesaplamasında kullanılacak programın komut kütüphanesinin aşağıdaki 
 tablo ile kısıtlı olacağı varsayılacaktır
 
-Komut  | Ağırlık | CLK Sayısı
-------------- | -------------
-MOV  | 0.2 | 2
-MUL  | 0.4 | 5
-ADD | 0.3 | 3
-ADC  | 0.3 | 3
+|Komut  | Ağırlık | CLK Sayısı|
+|------------- | -------------|
+|MOV  | 0.2 | 2|
+|MUL  | 0.4 | 5|
+|ADD | 0.3 | 3|
+|ADC  | 0.3 | 3|
 
 ## Uygulama 2: 
 
@@ -61,12 +61,12 @@ bir programlama dili sentaksını kullanarak kodlayınız. Bilgisayar frekansı
 performans hesaplamasında kullanılacak programın komut kütüphanesinin aşağıdaki 
 tablo ile kısıtlı olacağı varsayılacaktır. 
 
-Komut  | CLK Sayısı
-------------- | -------------
-MOV | 2
-MUL | 4
-ADD | 2
-ADC  | 2
-INC  | 2
-CMP  | 3
+|Komut  | CLK Sayısı|
+------------- | -------------|
+|MOV | 2|
+|MUL | 4|
+|ADD | 2|
+|ADC  | 2|
+|INC  | 2|
+|CMP  | 3|
 
