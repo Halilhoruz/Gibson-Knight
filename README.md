@@ -70,12 +70,3 @@ tablo ile kısıtlı olacağı varsayılacaktır.
 | INC | 2      |
 | CMP | 3      |
 
-|Komut  | CLK Sayısı|
-------------- | -------------|
-|MOV | 2|
-|MUL | 4|
-|ADD | 2|
-|ADC  | 2|
-|INC  | 2|
-|CMP  | 3|
-
