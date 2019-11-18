@@ -52,9 +52,23 @@ namespace BilgisayarMimarisi
 
             sr.Close();
             fs.Close();
-            for(double i = 1; i <= 5; i += 0.1)
+            
+            Console.WriteLine("\tKomut\t|\tAğırlık\t|\tCLK Sayısı");
+            Console.WriteLine("\tMOV\t|\t" + mov[0] + "\t|\t" + mov[1] + "\n" +
+                              "\tMUL\t|\t" + mul[0] + "\t|\t" + mul[1] + "\n" +
+                              "\tADD\t|\t" + add[0] + "\t|\t" + add[1] + "\n" +
+                              "\tADC\t|\t" + adc[0] + "\t|\t" + adc[1]);
+            Console.WriteLine("**********************************");
+            Console.WriteLine("MOV : " + movSayisi +
+                              " MUL : " + mulSayisi +
+                              " ADD : " + addSayisi +
+                              " ADC : " + adcSayisi);
+
+            Console.WriteLine("**********************************");
+            for (double i = 1; i <= 5; i += 0.1)
             {
                 double t = 1 / i * Math.Pow(10, 9);
+                Console.WriteLine(t);
                 double sonuc = ((movSayisi * double.Parse(mov[0])) + 
                                 (mulSayisi * double.Parse(mul[0])) + 
                                 (addSayisi * double.Parse(add[0])) + 
@@ -64,7 +78,7 @@ namespace BilgisayarMimarisi
                     (mulSayisi * double.Parse(mul[0]) * int.Parse(mul[1]) * t) + 
                     (addSayisi * double.Parse(add[0]) * int.Parse(add[1]) * t) + 
                     (adcSayisi * double.Parse(adc[0]) * int.Parse(adc[1]) * t));
-                Console.WriteLine(i + " ** " + sonuc);
+                Console.WriteLine(i + " GHz ** " + sonuc);
                 Console.ReadLine();
             }
             
